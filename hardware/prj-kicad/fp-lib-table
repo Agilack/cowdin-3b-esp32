@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "cowdin-3b-esp32")(type "KiCad")(uri "${KIPRJMOD}/cowdin-3b-esp32.pretty")(options "")(descr ""))
+)

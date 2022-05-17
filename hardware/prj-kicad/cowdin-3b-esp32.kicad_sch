@@ -1,0 +1,188 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (title_block
+    (title "CowDIN wifi module for 3U case")
+    (date "2022-05-17")
+    (rev "1")
+    (company "Agilack")
+    (comment 1 "License: CC-by-SA")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 107.95 44.45) (size 77.47 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 14c51520-6d91-4098-a59a-5121f2a898f7)
+    (property "Sheet name" "ESP32" (id 0) (at 107.95 43.7384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "mcu.kicad_sch" (id 1) (at 107.95 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/632f7142-f1a0-41ea-b7d9-8f79d600251b"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/2b638832-97db-4a37-b90f-bce8d0bd18de"
+      (reference "#PWR0102") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/92d5aa8c-db67-4192-b02d-25f5d3596f20"
+      (reference "#PWR0103") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/1353279e-34e6-4bfb-a17a-aa12fc62c538"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/b1c05901-bb14-4570-9dfa-81517b42ee63"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/fcfbb566-f209-4cdb-9fa6-7089c774dc5c"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/12f71132-d7a9-4d4d-8d3c-fd1de221abd8"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/9e757f5f-0806-496f-8864-a242a4cdacd0"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/a9b86e29-f303-47dd-8afe-0c50fa3131e3"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/b61d4abb-9ce0-48d3-9c53-5c624ca490e4"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/a559cf6c-d66f-4411-90fc-e155ca6cacea"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/25e78304-537f-4b43-9fec-e66939fc5faa"
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/e163bc81-4e9d-4fe3-a1d8-e3da43657d26"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/ede7045a-591c-44d7-b477-76b557990cef"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/54ea3c91-f824-4ee5-a744-4634dc7b3e93"
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/f65ef9be-32e2-468e-9b3f-1a9b89a3c808"
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/abc0b165-0397-4b09-8b46-0496644a350b"
+      (reference "#PWR0117") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/b5bf5be9-a2c1-4880-88ff-1b4774350ba6"
+      (reference "#PWR0118") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/dd08c001-3c21-4950-9a40-4af5fcadd28c"
+      (reference "#PWR0119") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/21c76d76-82f2-4004-9f9f-1523c86e986f"
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/6f57bf78-2b34-4713-8e9c-fb4ef9834ffe"
+      (reference "#PWR0121") (unit 1) (value "+VMEM") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/517ef8fc-a4e9-4ba4-948b-acbf6715a331"
+      (reference "#PWR0122") (unit 1) (value "+VMEM") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/088528ed-9597-4a2f-884e-b077d4d99f3c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/8a43c00c-b58b-4e0c-be1c-85a198cd9078"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/96a0c460-9cd5-4905-95e9-7f2e2e6186f6"
+      (reference "#PWR?") (unit 1) (value "+VMEM") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/662d5590-3ccf-4a6e-b45b-0414992778d9"
+      (reference "A1") (unit 1) (value "ANTENNA") (footprint "cowdin-3b-esp32:ANT_7488910245")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/99944b55-477f-416e-9024-2b7987624bf1"
+      (reference "A2") (unit 1) (value "CONN_A") (footprint "cowdin-3b-esp32:CONN_UFL-R-SMT-1")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/e71a0e1f-4c5f-4fa7-97cc-0c3ffe757078"
+      (reference "C1") (unit 1) (value "1uF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/3863ff53-3571-4c40-95e9-7ca9f28906ab"
+      (reference "C2") (unit 1) (value "10pF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/d185185d-719c-4486-af9f-c35b95179154"
+      (reference "C3") (unit 1) (value "10pF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/525ba07e-2a00-40b0-8a26-fa66c6c73852"
+      (reference "C4") (unit 1) (value "10nF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/80bb3cf1-b064-4b13-b806-a788a0007a2f"
+      (reference "C5") (unit 1) (value "3,3nF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/87d15d8f-ca0a-43e6-9d68-515fb5889937"
+      (reference "C6") (unit 1) (value "C") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/77d7ac7c-6099-4426-88c4-fdaf05b60a0a"
+      (reference "C7") (unit 1) (value "C") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/c69eba57-9554-49f0-8f5b-ea1d3012e31e"
+      (reference "C8") (unit 1) (value "C") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/6ee71a3c-fedb-4cc6-a3c6-f3d6f3ac6767"
+      (reference "C10") (unit 1) (value "1uF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/8fc3dc64-0316-4483-955b-6cc65ff9e1c8"
+      (reference "C11") (unit 1) (value "100nF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/fabb0922-1c85-4058-b2b4-43a9d724663d"
+      (reference "C12") (unit 1) (value "10nF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/f0e124ba-ae08-4f0d-b514-cf8aea6be769"
+      (reference "C13") (unit 1) (value "100nF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/d326ebbf-79b6-48d2-a6a7-ad8abb56bf3d"
+      (reference "C14") (unit 1) (value "100nF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/494adf7f-4da8-4427-96c7-95c87ac1b63e"
+      (reference "C15") (unit 1) (value "100nF") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/57ca708a-19d3-444b-9602-acf0a7cc687c"
+      (reference "L1") (unit 1) (value "INDUCTOR") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/58723525-ff89-4437-bb35-01409840a64a"
+      (reference "L2") (unit 1) (value "INDUCTOR") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/bb6dcaa4-24b4-4aa3-9eb6-50c7d379f7e0"
+      (reference "L3") (unit 1) (value "FB100") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/cd586052-3991-4e98-959d-b1dd55a4df71"
+      (reference "R1") (unit 1) (value "10k") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/cb33c10f-99ed-4de1-824a-e380c35900aa"
+      (reference "R2") (unit 1) (value "20k") (footprint "cowdin-3b-esp32:SMD0603")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/3a13a33d-0399-4bf3-800a-72a2421cb176"
+      (reference "U1") (unit 1) (value "ESP32") (footprint "cowdin-3b-esp32:QFN48-04")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/4f0fe3d7-686b-42d4-857c-52ab9530e82f"
+      (reference "U1") (unit 2) (value "ESP32") (footprint "cowdin-3b-esp32:QFN48-04")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/f76cbd05-f8aa-4ca3-8670-7899c22d78d9"
+      (reference "U2") (unit 1) (value "W25Q16JV") (footprint "cowdin-3b-esp32:SOIC-8")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/ea66459f-5d13-489c-b90c-3794c93458ec"
+      (reference "X1") (unit 1) (value "40MHz") (footprint "cowdin-3b-esp32:Q_3.2x2.5")
+    )
+  )
+)

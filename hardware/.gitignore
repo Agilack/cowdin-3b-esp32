@@ -1,0 +1,5 @@
+*.bak
+*.bck
+cowdin-3b-esp32-backups
+fp-info-cache
+
