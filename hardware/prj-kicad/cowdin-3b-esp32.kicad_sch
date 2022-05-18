@@ -100,14 +100,32 @@
     (path "/14c51520-6d91-4098-a59a-5121f2a898f7/517ef8fc-a4e9-4ba4-948b-acbf6715a331"
       (reference "#PWR0122") (unit 1) (value "+VMEM") (footprint "")
     )
-    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/088528ed-9597-4a2f-884e-b077d4d99f3c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/14c51520-6d91-4098-a59a-5121f2a898f7/8a43c00c-b58b-4e0c-be1c-85a198cd9078"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/961e37cd-505c-40aa-baef-0a680d665d8f"
+      (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
     (path "/14c51520-6d91-4098-a59a-5121f2a898f7/96a0c460-9cd5-4905-95e9-7f2e2e6186f6"
-      (reference "#PWR?") (unit 1) (value "+VMEM") (footprint "")
+      (reference "#PWR0125") (unit 1) (value "+VMEM") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/088528ed-9597-4a2f-884e-b077d4d99f3c"
+      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/c7adb180-cac4-4e08-bba9-6fc53c45552e"
+      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/87e09322-33fa-4d19-90db-428f8edb4f53"
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/d26f4dea-9296-4c15-8b70-9dbb87d14c0a"
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/f82a6f35-b2e8-45e3-97f8-1c2e70fa4578"
+      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/639ca422-47e3-433d-8434-ccd322d0201f"
+      (reference "#PWR0131") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/14c51520-6d91-4098-a59a-5121f2a898f7/662d5590-3ccf-4a6e-b45b-0414992778d9"
       (reference "A1") (unit 1) (value "ANTENNA") (footprint "cowdin-3b-esp32:ANT_7488910245")
@@ -172,6 +190,9 @@
     (path "/14c51520-6d91-4098-a59a-5121f2a898f7/cb33c10f-99ed-4de1-824a-e380c35900aa"
       (reference "R2") (unit 1) (value "20k") (footprint "cowdin-3b-esp32:SMD0603")
     )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/11f13304-bd4b-4b91-bb72-2e84ab0b85a5"
+      (reference "SHLD1") (unit 1) (value "Shield") (footprint "cowdin-3b-esp32:SHLD_36903205")
+    )
     (path "/14c51520-6d91-4098-a59a-5121f2a898f7/3a13a33d-0399-4bf3-800a-72a2421cb176"
       (reference "U1") (unit 1) (value "ESP32") (footprint "cowdin-3b-esp32:QFN48-04")
     )
@@ -183,6 +204,9 @@
     )
     (path "/14c51520-6d91-4098-a59a-5121f2a898f7/ea66459f-5d13-489c-b90c-3794c93458ec"
       (reference "X1") (unit 1) (value "40MHz") (footprint "cowdin-3b-esp32:Q_3.2x2.5")
+    )
+    (path "/14c51520-6d91-4098-a59a-5121f2a898f7/a5c104d3-89c9-4abc-a64e-c0025d27215c"
+      (reference "X2") (unit 1) (value "32,768kHz") (footprint "cowdin-3b-esp32:Q_3.2x2.5")
     )
   )
 )
