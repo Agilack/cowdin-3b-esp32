@@ -1450,9 +1450,9 @@
     (property "Datasheet" "" (id 3) (at 143.51 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "0" (uuid 8476e5bc-bf12-41f5-9358-6f231878f6db))
-    (pin "0" (uuid 8476e5bc-bf12-41f5-9358-6f231878f6db))
-    (pin "0" (uuid 8476e5bc-bf12-41f5-9358-6f231878f6db))
+    (pin "0" (uuid 8476e5bc-bf12-41f5-9358-6f231878f6f7))
+    (pin "0" (uuid 8476e5bc-bf12-41f5-9358-6f231878f6f7))
+    (pin "0" (uuid 8476e5bc-bf12-41f5-9358-6f231878f6f7))
   )
 
   (symbol (lib_id "cowdin-3b-esp32:GND") (at 245.11 85.09 0) (unit 1)
