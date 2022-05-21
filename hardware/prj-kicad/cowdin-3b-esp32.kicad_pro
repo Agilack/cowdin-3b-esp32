@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -443,6 +443,10 @@
     [
       "cbdd084c-3cde-4340-9de6-6f6ca3f79e91",
       "Ethernet"
+    ],
+    [
+      "1d4ec9d6-b4f1-4935-a655-c469bc01feb9",
+      "Power Supply"
     ]
   ],
   "text_variables": {}
